@@ -1,0 +1,72 @@
+.parent{
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+  
+
+}
+.nav{
+ 
+  
+  right: 5PX;
+  left: 5PX;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+ 
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+
+}
+button {
+  width: 200px;
+  height: 50px;
+}
+.nav2{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(240, 248, 255, 0.486);
+  
+  padding: 10px;
+
+  width: 1600px;
+
+}
+.parent{
+  position: absolute;
+  z-index: 1;
+top: 10px;
+right: 5px;
+left: 5px;
+
+}
+body{
+  position: relative;
+}
+.text{
+  width: 1600px;
+  background-color: aliceblue;
+  position: absolute;
+  bottom: 30px;
+  right: 5px;
+  left: 200px;
+  justify-content: center;
+
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.donate{
+  border-left:1px solidblack ;
+} 
